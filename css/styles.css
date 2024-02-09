@@ -1,5 +1,9 @@
 
 
+img {
+    display: block;
+}
+
 ul {
     list-style-type: none;
     margin-top: 0;
@@ -37,9 +41,8 @@ p, h1, h2, h3, h4, h5, h6 {
 header {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-    padding-top: 24px;
-    padding-bottom: 24px;
     display: flex;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-logo {
@@ -64,11 +67,14 @@ header {
     display: flex;
     justify-content: space-between;
     margin-right: 332px;
+    align-items: center;
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-item {
@@ -82,6 +88,7 @@ header {
 .header-address-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .header-container {
@@ -169,6 +176,7 @@ background-color: #4D5AE5;
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
+    min-width: 169px
 }
 
 .body-button-head:hover {
@@ -177,6 +185,17 @@ background-color: #4D5AE5;
 
 .body-button-head:focus {
     background-color: #404BBF;
+}
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        overflow: hidden;
 }
 
 .body-info-list {
@@ -210,6 +229,7 @@ background-color: #4D5AE5;
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .body-team-head {
@@ -221,6 +241,10 @@ background-color: #4D5AE5;
         text-align: center;
         color: #2E2F42;
         margin-bottom: 72px;
+}
+
+.body-team-div {
+    padding: 32px 0;
 }
 
 .body-team-item {
@@ -239,8 +263,7 @@ background-color: #4D5AE5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .body-team-text {
@@ -248,13 +271,13 @@ background-color: #4D5AE5;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-        padding-bottom: 32px;
 }
 
 .body-port-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 
 .body-port-section {
@@ -270,7 +293,7 @@ background-color: #4D5AE5;
         text-transform: capitalize;
         text-align: center;
         color: #2E2F42;
-        margin-bottom: 80px;
+        margin-bottom: 72px;
 }
 
 .body-port-subtitle {
@@ -311,6 +334,8 @@ background-color: #4D5AE5;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-comm-span {
@@ -324,9 +349,7 @@ background-color: #4D5AE5;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        margin-top: 16px;
         width: 264px;
-        margin-top: 15px;
 }
 
 /* ======================= */
