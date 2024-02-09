@@ -53,16 +53,12 @@ header {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .header-logo span {
     color: #2E2F42;
 }
-
-.header-logo {
-    margin-right: 76px;
-}
-
 .header-navigation {
     display: flex;
     justify-content: space-between;
@@ -229,7 +225,6 @@ background-color: #4D5AE5;
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-    border-radius: 0px 0px 4px 4px;
 }
 
 .body-team-head {
@@ -249,6 +244,7 @@ background-color: #4D5AE5;
 
 .body-team-item {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .body-team-list {
