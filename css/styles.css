@@ -66,11 +66,14 @@ header {
     align-items: center;
 }
 
+.header-link {
+padding: 24px 0;
+}
+
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .header-menu-item {
